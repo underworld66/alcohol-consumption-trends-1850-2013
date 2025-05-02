@@ -1,0 +1,23 @@
+materi yg saya pelajari sebelum UTS adalah Klasifikasi yaitu proses dalam machine learning yang digunakan
+untuk mengelompokkan data ke dalam kategori atau kelas tertentu. Tujuan utama dari klasifikasi adalah
+untuk memprediksi kelas dari data baru berdasarkan pola yang telah dipelajari dari data sebelumnya. Dalam klasifikasi,
+kita memiliki dua fase utama: fase pelatihan, di mana model belajar dari data yang sudah ada, dan fase pengujian, di mana model diuji dengan data baru untuk dievaluasi akurasinya.
+
+Konsep Dasar Klasifikasi
+Data Latih dan Data Uji: Data dibagi menjadi dua set, yaitu data latih untuk melatih model dan data uji untuk menguji performa model.
+Fitur dan Label: Fitur adalah atribut atau variabel yang digunakan untuk membuat prediksi, sedangkan label adalah kategori yang ingin diprediksi.
+Model Klasifikasi: Model yang digunakan untuk melakukan klasifikasi dapat bervariasi, dan pemilihan model yang tepat sangat penting untuk mencapai hasil yang baik.
+
+Decision Tree
+Pengertian: Decision Tree adalah salah satu metode klasifikasi yang menggunakan struktur pohon untuk membuat keputusan.
+Setiap node dalam pohon mewakili fitur, setiap cabang mewakili keputusan, dan setiap daun mewakili hasil akhir atau kelas.
+Proses Kerja: Decision Tree membagi data berdasarkan fitur yang paling signifikan untuk memisahkan kelas.
+Proses ini berlanjut hingga semua data terklasifikasi atau hingga kriteria tertentu terpenuhi.
+Keunggulan: Mudah dipahami dan diinterpretasikan, serta dapat menangani data yang tidak terstruktur.
+Kekurangan: Rentan terhadap overfitting, terutama jika pohon terlalu dalam.
+
+Naïve Bayes
+Pengertian: Naïve Bayes adalah metode klasifikasi berbasis probabilitas yang didasarkan pada Teorema Bayes. Metode ini mengasumsikan bahwa fitur-fitur yang ada bersifat independen satu sama lain.
+Proses Kerja: Naïve Bayes menghitung probabilitas setiap kelas berdasarkan fitur yang ada dan memilih kelas dengan probabilitas tertinggi sebagai hasil prediksi.
+Keunggulan: Sederhana, cepat, dan efektif untuk dataset besar. Cocok untuk teks dan klasifikasi spam.
+Kekurangan: Asumsi independensi fitur sering kali tidak realistis, yang dapat mempengaruhi akurasi.
